@@ -1,102 +1,92 @@
-# 💰 Gold Price Prediction using Linear Regression
+# 💰 Gold Price Prediction
 
-A Machine Learning project that predicts **Gold Price (INR per gram)** based on the **USD/INR exchange rate**, with an interactive **Streamlit web application** for real-time predictions.
+A Machine Learning project that predicts **Gold Price (₹ per gram)** based on the **USD/INR exchange rate** using **Linear Regression**, with an interactive **Streamlit web application**.
 
 ---
 
 ## 📖 Overview
 
-Gold prices in India are closely related to the USD/INR exchange rate. This project uses **Linear Regression** to learn the relationship between these variables and estimate gold prices.
+Gold prices in India are influenced by global economic factors, especially the USD/INR exchange rate. This project builds a Linear Regression model to predict gold prices based on the exchange rate.
 
-The project also includes a **Streamlit app** that allows users to input the USD/INR value and get instant predictions.
+This project demonstrates a complete Machine Learning workflow:
 
-This project demonstrates a complete beginner-friendly ML workflow:
-
-* Data Collection
-* Data Analysis
-* Model Training
-* Model Evaluation
-* Model Saving
-* Web App Deployment
+* Data loading and preprocessing
+* Model training using Linear Regression
+* Model evaluation
+* Saving the trained model
+* Building a web app using Streamlit
 
 ---
 
-## 🧠 Model Information
+## 🧠 Model Details
 
-**Algorithm Used:** Linear Regression
-**Input Feature:** USD/INR exchange rate
-**Output:** Gold price (₹ per gram)
+**Algorithm:** Linear Regression
 
-### 📊 Performance
+**Input:**
 
-| Metric                  | Value |
-| ----------------------- | ----- |
-| R² Score                | 0.73  |
-| Mean Absolute Error     | ₹816  |
-| Root Mean Squared Error | ₹1021 |
+* USD/INR exchange rate
+
+**Output:**
+
+* Gold price (₹ per gram)
+
+**Performance:**
+
+* R² Score: 0.73
+* Mean Absolute Error: ₹816
+* Root Mean Squared Error: ₹1021
 
 ---
 
-## 🗂️ Repository Structure
+## 📁 Project Structure
 
-```
-gold-price-prediction-linear-regression
+```id="py80sn"
+gold-price-prediction
 │
-├── goldprediction.ipynb    # Jupyter notebook for training the model
-├── gold_dataset.csv       # Dataset
-├── gold_model.pkl         # Saved trained model
-├── app.py                 # Streamlit application
-├── requirements.txt      # Required libraries
-└── README.md              # Project documentation
+├── goldprediction.ipynb
+├── gold_dataset.csv
+├── gold_model.pkl
+├── app.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## 🚀 Streamlit Web Application
+## 🚀 Streamlit Application
 
-The project includes an interactive web interface.
-
-### Features
+This project includes a web application where users can:
 
 * Enter USD/INR value
 * Get instant gold price prediction
-* Simple and clean interface
 
 ---
 
-## ▶️ How to Run Locally
+## ▶️ How to Run the Project
 
-### 1. Clone the repository
+### Step 1: Clone the repository
 
-```
-git clone https://github.com/yourusername/gold-price-prediction-linear-regression.git
-```
-
-### 2. Navigate to the project folder
-
-```
-cd gold-price-prediction-linear-regression
+```id="7po2i8"
+git clone https://github.com/yourusername/gold-price-prediction.git
 ```
 
-### 3. Install dependencies
+### Step 2: Open project folder
 
+```id="u4ww5c"
+cd gold-price-prediction
 ```
+
+### Step 3: Install libraries
+
+```id="9jhtav"
 pip install -r requirements.txt
 ```
 
-### 4. Run the Streamlit app
+### Step 4: Run Streamlit app
 
-```
+```id="2l04xg"
 streamlit run app.py
 ```
-
----
-
-## 📷 Example Prediction
-
-| USD/INR | Predicted Gold Price |
-| ------- | -------------------- |
-| 88      | ₹7200 / gram         |
 
 ---
 
@@ -106,37 +96,42 @@ streamlit run app.py
 * Pandas
 * NumPy
 * Scikit-learn
-* Matplotlib
 * Streamlit
+* Matplotlib
 * Pickle
 
 ---
 
-## 🎯 Learning Outcomes
+## 📊 Example
 
-Through this project, I learned:
+Input:
 
-* How Linear Regression works
-* How to train and evaluate ML models
-* How to save and load trained models
-* How to build ML web apps using Streamlit
-* How to deploy ML projects on GitHub
+```id="j3a6xg"
+USD/INR = 88
+```
+
+Output:
+
+```id="85x7q4"
+Predicted Gold Price ≈ ₹7200 per gram
+```
 
 ---
 
-## 🔮 Future Improvements
+## 🎯 Project Purpose
 
-* Add more features to improve accuracy
-* Use advanced ML algorithms
-* Deploy app to cloud
-* Integrate live gold price API
+This is a beginner Machine Learning project created to learn:
+
+* Linear Regression
+* Model training and evaluation
+* Model deployment
+* Building ML web applications
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project is for **educational purposes only**.
-Predictions may not reflect real market prices.
+This project is for educational purposes only and should not be used for real financial decisions.
 
 ---
 
@@ -144,10 +139,8 @@ Predictions may not reflect real market prices.
 
 **Gowdham Subramaniyan**
 
-Beginner Machine Learning Project
-
 ---
 
-## ⭐ Support
+## ⭐ If you like this project
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+Please give it a ⭐ on GitHub.
