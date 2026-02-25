@@ -1,4 +1,5 @@
 # 💰 Gold Price Prediction
+🔗 **Live App:** https://gold-price-prediction-mdwwkuvswmx2o9popya7ry.streamlit.app/
 
 A Machine Learning project that predicts **Gold Price (₹ per gram)** based on the **USD/INR exchange rate** using **Linear Regression**, with an interactive **Streamlit web application**.
 
