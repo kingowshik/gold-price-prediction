@@ -67,7 +67,7 @@ This project includes a web application where users can:
 ### Step 1: Clone the repository
 
 ```id="7po2i8"
-git clone https://github.com/yourusername/gold-price-prediction.git
+git clone https://github.com/kingowshik/gold-price-prediction.git
 ```
 
 ### Step 2: Open project folder
