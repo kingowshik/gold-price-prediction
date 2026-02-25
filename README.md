@@ -137,7 +137,7 @@ This project is for educational purposes only and should not be used for real fi
 
 ## 👨‍💻 Author
 
-**Gowdham Subramaniyan**
+**Gowshik Subramaniyan**
 
 ---
 
